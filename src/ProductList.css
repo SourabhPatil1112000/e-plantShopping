@@ -250,3 +250,45 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  /* Add these styles for product description */
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    line-height: 1.4;
+    height: 60px;
+    overflow: hidden;
+}
+
+/* Category section styling */
+.category-section {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Make cart badge visible */
+.cart {
+    position: relative;
+    display: inline-block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .product-card {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    .cart_quantity_count {
+        margin-top: -40px;
+        margin-left: 35px;
+        font-size: 16px;
+        padding: 2px 6px;
+    }
+}
